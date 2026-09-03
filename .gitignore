@@ -1,4 +1,11 @@
 # ---- farfarfun 组织约定 (SPEC §10) ----
+# Python 编译产物
+__pycache__/
+*.pyc
+
+# 前端依赖目录
+node_modules/
+
 # 服务脚本的运行时文件：日志 / PID / lock
 .run/
 logs/
