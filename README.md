@@ -16,7 +16,7 @@ curl -O https://raw.githubusercontent.com/farfarfun/cachedata/master/farfarfun/f
 
 ## 最小示例
 
-数据文件是游戏客户端导出的原始文本（自定义分隔符，非 UTF-8/JSON 结构化格式），按文本方式读取即可：
+数据文件是游戏客户端导出的原始 UTF-8 文本，使用自定义分隔符而非 JSON 格式，按文本方式读取即可：
 
 ```python
 from pathlib import Path
