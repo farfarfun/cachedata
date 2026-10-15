@@ -14,7 +14,7 @@ git clone https://github.com/farfarfun/cachedata.git
 curl -O https://raw.githubusercontent.com/farfarfun/cachedata/master/farfarfun/fungame/topwar/data/zh_cn_1.3.1821.txt
 ```
 
-## 最小示例
+## 使用示例
 
 数据文件是游戏客户端导出的原始 UTF-8 文本，使用自定义分隔符而非 JSON 格式，按文本方式读取即可：
 
